@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playwrite+HU&display=swap");
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: #ffffff;
+  color: #1d1b24;
+}
+.hadertxt {
+  color: #525efa;
+  float: left;
+  margin-left: 150px;
+  margin-top: 56px;
+  font-size: 45px;
+  font-family: "Outfit", sans-serif;
+  font-weight: bolder;
+}
+.tryit {
+  color: #525efa;
+  background-color: transparent;
+  border: 3px solid #525efa;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 10px;
+  width: 145px;
+  height: 50px;
+  margin-top: 20px;
+  float: inline-end;
+  cursor: pointer;
+  margin-right: 130px;
+  margin-top: 56px;
+  font-weight: bold;
+}
+.tryit:hover {
+  color: #ffffff;
+  background-color: #525efa;
+  border: 2px solid #525efa;
+}
+.hero .textcontainer {
+  position: absolute;
+  margin: 100px;
+  width: 500px;
+  height: 800px;
+}
+.inputmone {
+  border-radius: 50px;
+  padding: 20px;
+  width: 250px;
+  border: 3px solid #ebebeb;
+  color: #ebebebf4;
+  font-size: 15px;
+  margin-top: 50px;
+}
+.herotrybtn {
+  color: #fff;
+  background-color: #525efa;
+  border: 3px solid #525efa;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 10px;
+  width: 160px;
+  height: 55px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.herotrybtn:hover {
+  color: #525efa;
+  background-color: #ffffff;
+}
+.heroimg {
+  margin: 50px 0 0 500px;
+  width: 650px;
+  height: 550px;
+}
+.herop {
+  font-family: "Outfit", sans-serif;
+  color: #1d1b24;
+  font-weight: 900;
+  font-size: 56px;
+}
+.herotxt {
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  color: #b0aaaa;
+}
+.card-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cardh {
+  margin-top: 150px;
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.card {
+  width: 280px;
+  height: 350px;
+  padding: 30px 20px;
+  border-radius: 16px;
+  text-align: center;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+.c1 {
+  margin-top: 40px;
+}
+.c2 {
+  margin-top: 130px;
+}
+.c3 {
+  margin-top: 50px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: -65px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+.blue {
+  background-color: #4e5ef2;
+}
+.lightblue {
+  background-color: #eaf1fd;
+  color: #000;
+}
+.lightblue p {
+  color: #444;
+}
+.yellow {
+  background-color: #fde7b0;
+  color: #000;
+}
+.yellow p {
+  color: #444;
+}
+
+.section {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  width: 600px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+  max-width: 500px;
+}
+
+.text-container .whyh {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.text-container .whyp {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #b0aaaa;
+  margin-bottom: 30px;
+}
+
+.text-container .learnbtn {
+  color: #fff;
+  background-color: #525efa;
+  border: 3px solid #525efa;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 10px;
+  width: 160px;
+  height: 55px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.text-container .learnbtn:hover {
+  background-color: #fff;
+  color: #525efa;
+}
+
+.workflow-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+  flex-wrap: wrap;
+}
+
+.text-content {
+  max-width: 500px;
+}
+
+.text-content .workh {
+  font-size: 40px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 20px;
+}
+
+.text-content .workp {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.store-icons {
+  display: flex;
+  gap: 50px;
+}
+
+.store-icons .apps {
+  width: 45px;
+  height: 50px;
+  cursor: pointer;
+}
+.store-icons .plays {
+  width: 85px;
+  height: 63px;
+  cursor: pointer;
+}
+
+.image-preview {
+  max-width: 600px;
+}
+
+.image-preview img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+.trust-container .trusth{
+  font-size: 40px;
+  text-align: center;
+  font-weight: 800;
+}
+.trust-container .trustimg1{
+  margin-left: 100px;
+  width: 250px;
+  height:auto;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: -120px;
+}
+.trust-container .trustimg2{
+  border-radius: 50%;
+  width: 320px;
+  height: auto;
+  margin-left: 1050px;
+  margin-top: -120px;
+}
+.number{
+  color: #525efa;
+  font-size: 120px;
+  font-weight: 900;
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+.ltih{
+  margin-top: 100px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 50px;
+}
+.ltip{
+  text-align: center;
+  font-size: 25px;
+  font-weight: 200;
+}
+.ltiinput{
+  border-radius: 50px;
+  padding: 20px;
+  width: 250px;
+  border: 3px solid #f0f0f0;
+  color: #f0f0f0;
+  font-size: 15px;
+  margin-top: 50px;
+}
+.ltibtn{
+  color: #fff;
+  background-color: #525efa;
+  border: 3px solid #525efa;
+  border-radius: 40px;
+  font-size: 16px;
+  padding: 10px;
+  width: 160px;
+  height: 55px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.ltibtn:hover{
+  background-color: #fff;
+  color: #525efa;
+}
+.try-container{
+  margin-left: 520px;
+  margin-bottom: 200px;
+}
